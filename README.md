@@ -1,7 +1,4 @@
 # AdvancedAI
-University coursework module, based on Image Classification
-
-
 # Image Classification using Convolutional Neural Networks (CNN) and Fully Connected Neural Networks (FCNN)
 
 This project comprehensively implements image classification using Convolutional Neural Networks (CNN) and Fully Connected Neural Networks (FCNN). This project aims to accurately classify fashion items from the Fashion-MNIST dataset into ten different classes. The code covers various stages of the image classification pipeline, including data preprocessing, model architecture creation, model training, parameter tuning, and model evaluation.
