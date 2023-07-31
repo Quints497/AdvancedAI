@@ -10,6 +10,10 @@ This project comprehensively implements image classification using Convolutional
 ## Dataset Exploration
 
 The Fashion-MNIST dataset consists of 60,000 training and 10,000 testing samples, each representing grayscale images of fashion items like t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots. Before diving into model development, the dataset distribution is visualised, and the reader is presented with sample images from each class.
+![Code used to display the details of the dataset](https://github.com/Quints497/AdvancedAI/assets/70848538/39cab102-7cee-4b8c-819a-8d5898e1ffbb)
+![Code used to display the splits of training and testing samples](https://github.com/Quints497/AdvancedAI/assets/70848538/6a6dd2ab-3a09-4cb2-8e1e-bb211508b98f)
+<img width="1004" alt="Code used to display a sample image from each class" src="https://github.com/Quints497/AdvancedAI/assets/70848538/f9fbaea7-6fdc-4b06-ba50-5dae1e308c8d">
+
 
 
 ## Data Preprocessing
@@ -20,6 +24,8 @@ To ensure optimal model performance, data preprocessing is crucial. The pixel va
 ## CNN Architecture Exploration
 
 The report explores various CNN architectures with different numbers of convolutional and pooling layers. Each layer uses ReLU activation, while the output layer employs Softmax activation for classification. To prevent overfitting, early stopping is implemented during training. The CNN models' performance is assessed based on Categorical Croseentropy loss, Categorical Accuracy, and Precision metrics.
+![Code used to create various CNN architectures](https://github.com/Quints497/AdvancedAI/assets/70848538/88733857-929e-486b-acda-8faba0c76cb4)
+
 
 ## FCNN Architecture Exploration
 
