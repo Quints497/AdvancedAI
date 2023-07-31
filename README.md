@@ -51,7 +51,8 @@ After training with the optimal hyperparameters, the models' performance is eval
 ## Comparison with Literature
 
 To gain perspective on the model's performance, the final CNN and FCNN model's test accuracy is compared with other models from literature. This comparative analysis highlights the CNN and FCNN model's competitive results compared to state-of-the-art models but also acknowledges the increased computational costs associated with CNNS.
-<img width="1004" alt="Displays the comparison of scores between the CNN, FCNN, and models found in literature" src="https://github.com/Quints497/AdvancedAI/assets/70848538/a683561f-3e02-4c57-a6cd-c64f80c31954">
+
+<img width="1004" alt="Displays the comparison of scores between the CNN, FCNN, and models found in literature" src="https://github.com/Quints497/AdvancedAI/assets/70848538/b53e0e8c-4ab4-4967-97ec-d69128ba7e70">
 
 
 ## Applications of CNNs
