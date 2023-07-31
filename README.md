@@ -45,12 +45,13 @@ To find the optimal hyperparameters for both CNN and FCNN models, a parameter tu
 
 After training with the optimal hyperparameters, the models' performance is evaluated on the testing dataset to assess their generalisation capabilities. the models' loss, accuracy, and precision are measured on the unseen data.
 <img width="1004" alt="Code used to test and then display the model's performance" src="https://github.com/Quints497/AdvancedAI/assets/70848538/bb107c20-a8e3-4f12-b7e7-d42a05d7b17f">
-<img width="1004" alt="Displays the scores produced from the CNN and FCNN models'" src="https://github.com/Quints497/AdvancedAI/assets/70848538/c1e1f23f-852b-4a58-a761-c3571944ccba">
+<img width="1004" alt="The loss, accuracy, precision score of CNN & FCNN models" src="https://github.com/Quints497/AdvancedAI/assets/70848538/ffeeb947-3009-400b-ab63-0328df494098">
+
 
 ## Comparison with Literature
 
 To gain perspective on the model's performance, the final CNN and FCNN model's test accuracy is compared with other models from literature. This comparative analysis highlights the CNN and FCNN model's competitive results compared to state-of-the-art models but also acknowledges the increased computational costs associated with CNNS.
-<img width="1004" alt="Displays the comparison of scores between the CNN, FCNN, and models found in literature" src="https://github.com/Quints497/AdvancedAI/assets/70848538/543287d1-8cad-412b-8abb-3ccdc669128a">
+<img width="1004" alt="Displays the comparison of scores between the CNN, FCNN, and models found in literature" src="https://github.com/Quints497/AdvancedAI/assets/70848538/a683561f-3e02-4c57-a6cd-c64f80c31954">
 
 
 ## Applications of CNNs
