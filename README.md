@@ -10,31 +10,33 @@ This project comprehensively implements image classification using Convolutional
 ## Dataset Exploration
 
 The Fashion-MNIST dataset consists of 60,000 training and 10,000 testing samples, each representing grayscale images of fashion items like t-shirts, trousers, pullovers, dresses, coats, sandals, shirts, sneakers, bags, and ankle boots. Before diving into model development, the dataset distribution is visualised, and the reader is presented with sample images from each class.
-![Code used to display the details of the dataset](https://github.com/Quints497/AdvancedAI/assets/70848538/39cab102-7cee-4b8c-819a-8d5898e1ffbb)
-![Code used to display the splits of training and testing samples](https://github.com/Quints497/AdvancedAI/assets/70848538/6a6dd2ab-3a09-4cb2-8e1e-bb211508b98f)
+<img width="1004" alt="Code used to display the spread of items within the dataset" src="https://github.com/Quints497/AdvancedAI/assets/70848538/948bed3d-5e72-49c8-b8bf-1db1704b47ac">
 <img width="1004" alt="Code used to display a sample image from each class" src="https://github.com/Quints497/AdvancedAI/assets/70848538/f9fbaea7-6fdc-4b06-ba50-5dae1e308c8d">
-
 
 
 ## Data Preprocessing
 
 To ensure optimal model performance, data preprocessing is crucial. The pixel values of the images, originally ranging from 0 to 255, are scaled to the 0 to 1 range, making the inputs compatible with neural networks. Additionally, the images are reshaped to have a depth of 1 to form 1-dimensional arrays for network input. the labels are transformed into binary vectors using one-hot encoding, facilitating categorical classification.
+<img width="1004" alt="Code used to display how the data has been processed" src="https://github.com/Quints497/AdvancedAI/assets/70848538/c7d35b3a-1494-435f-b014-65a3fa12d313">
 
 
 ## CNN Architecture Exploration
 
 The report explores various CNN architectures with different numbers of convolutional and pooling layers. Each layer uses ReLU activation, while the output layer employs Softmax activation for classification. To prevent overfitting, early stopping is implemented during training. The CNN models' performance is assessed based on Categorical Croseentropy loss, Categorical Accuracy, and Precision metrics.
-![Code used to create various CNN architectures](https://github.com/Quints497/AdvancedAI/assets/70848538/88733857-929e-486b-acda-8faba0c76cb4)
+<img width="1004" alt="Code used to create various CNN architectures" src="https://github.com/Quints497/AdvancedAI/assets/70848538/a5c159d7-9af5-4980-bd3a-105007340804">
 
 
 ## FCNN Architecture Exploration
 
 Similarly, FCNN models are created with differing numbers of fully connected layers. To counter overfitting, Dropout layers are introduced, which randomly deactivate neurons during training. This allows the model to generalise better to unseen data.
+<img width="1004" alt="Code used to create various FCNN architectures" src="https://github.com/Quints497/AdvancedAI/assets/70848538/57269bcd-c17a-402a-9a53-8b4f39197da0">
 
 
 ## Model Training and Performance
 
 The models are trained on the training data with a validation split to monitor performance during training. Categorical Croseentroppy loss is used to optimise the models, while Categorical Accuracy and Precision are monitored to assess their accuracy and precision on the validation set. Early stopping is incorporated to prevent overfitting and achieve the best model performance.
+<img width="1004" alt="Code used to create the Training Function used by the CNN and FCNN models" src="https://github.com/Quints497/AdvancedAI/assets/70848538/2102fb8d-e8ec-4f8e-9645-3a0329f6fa71">
+<img width="1004" alt="Code used to create the Visualisation Function used by the CNN and FCNN models" src="https://github.com/Quints497/AdvancedAI/assets/70848538/4c5302bb-a6cd-4dfe-be73-297cbe045c8d">
 
 
 ## Hyperparameter Tuning
@@ -45,6 +47,7 @@ To find the optimal hyperparameters for both CNN and FCNN models, a parameter tu
 ## Model Evaluation
 
 After training with the optimal hyperparameters, the models' performance is evaluated on the testing dataset to assess their generalisation capabilities. the models' loss, accuracy, and precision are measured on the unseen data.
+<img width="1004" alt="Code used to test and then display the models performance" src="https://github.com/Quints497/AdvancedAI/assets/70848538/bb107c20-a8e3-4f12-b7e7-d42a05d7b17f">
 
 
 ## Comparison with Literature
